@@ -1,7 +1,16 @@
 aid: junto-education
 name: Junto Education
-description: Junto Education is a company surfaced as a portfolio company of earlybird and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Junto is a Berlin-based leadership-development company and a portfolio company
+  of Earlybird Venture Capital. Junto delivers cohort-based, live and interactive
+  online training led by certified coaches who previously held senior leadership
+  roles at leading technology companies. Its programs combine the accountability
+  and personal interaction of offline training with the scalability of online
+  learning, and cover first-time managers, high-performance teams, and custom
+  leadership tracks. Junto sells directly to organizations, who nominate
+  high-potential employees for the programs. Junto operates a marketing site at
+  junto.eu and a customer learning application at app.junto.eu. As of this
+  profile, Junto publishes no public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/junto-education/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,53 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/647ccb670266481ba680500b/65f4388c52a91a5e74b9aff8_junto-opengraph.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Leadership Training
+- Corporate Training
+- Online Learning
+- Coaching
+- Professional Development
 apis: []
+common:
+- type: Website
+  url: https://www.junto.eu/
+- type: About
+  url: https://www.junto.eu/about
+- type: Blog
+  url: https://www.junto.eu/blog
+- type: Support
+  url: https://www.junto.eu/get-in-touch
+- type: PrivacyPolicy
+  url: https://www.junto.eu/data-protection
+- type: Login
+  url: https://app.junto.eu/auth/login
+- type: Imprint
+  url: https://www.junto.eu/imprint
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
